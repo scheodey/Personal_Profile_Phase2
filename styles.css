@@ -10,14 +10,14 @@ body {
   color: #333;
 }
 
-/* Sidebar */
+/* For Sidebar/nav */
 .sidebar {
-  position: fixed; /* Fix the sidebar to the viewport */
+  position: fixed;
   top: 0;
   left: 0;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   width: 20%;
-  background-color: #2a3b54;
+  background-color: #10356d;
   color: white;
   padding: 20px;
   display: flex;
@@ -54,7 +54,7 @@ body {
 }
 
 .sidebar nav a:hover {
-  background-color: #3c506d;
+  background-color: #bbc7d8;
 }
 
 .sidebar .progress-badge {
@@ -66,15 +66,15 @@ body {
   width: 70px;
 }
 
-/* Main content */
+/* For Main content */
 .main-content {
-  margin-left: 20%; /* Adjust for sidebar width */
+  margin-left: 20%; 
   width: 80%;
   padding: 20px;
   background: linear-gradient(to bottom, #cfd9df, #e2ebf0);
 }
 
-/* Header */
+/* For Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -85,7 +85,7 @@ body {
 .header .search-box {
   display: flex;
   align-items: center;
-  background-color: #e2e2e2;
+  background-color: #726f6f6f;
   padding: 8px 12px;
   border-radius: 20px;
 }
@@ -103,19 +103,19 @@ body {
   gap: 10px;
 }
 
-/* Profile Container */
+/* For Profile Container */
 .profile-container {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Spacing between profile-card and profile-section */
+  gap: 20px;
 }
 
-/* Profile Card */
+/* For Profile Card */
 .profile-card {
   position: relative;
   background-size: cover;
   border-radius: 10px;
-  color: #333;
+  color: #111111;
   padding: 40px;
   text-align: center;
   height: 70vh;
@@ -129,7 +129,7 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid rgb(179, 108, 108);
   margin-bottom: 15px;
 }
 
@@ -140,7 +140,7 @@ body {
 
 .profile-card p {
   font-size: 18px;
-  color: #666;
+  color: #7b7373;
 }
 
 .assignments-button {
@@ -158,10 +158,10 @@ body {
 }
 
 .assignments-button:hover {
-  background-color: #2a3b54;
+  background-color: #a3b1c5;
 }
 
-/* Profile Section */
+/* For Profile Section */
 .profile-section {
   background: linear-gradient(135deg, #2f4f4f, #4682b4);
   padding: 20px;
@@ -190,21 +190,21 @@ body {
   margin-right: 8px;
 }
 
-/* Divider Image */
+/* For Divider Image */
 .proj {
     display: flex;
     flex-direction: row;
     gap: 0px;
 }
 .proj .divider-image {
-  width: 325px; /* Full width of the container */
-  max-width: 400px; /* Adjust as needed */
-  margin: 20px auto; /* Centered with spacing above and below */
+  width: 325px; 
+  max-width: 400px; 
+  margin: 20px auto; 
   display: block;
   border-radius: 0px;
 }
 
-/* Services Section */
+/* For Services Section */
 .services-section {
   margin-top: 30px;
   padding: 20px;
@@ -215,7 +215,7 @@ body {
 
 .services-section h2 {
   font-size: 24px;
-  color: #333;
+  color: #0c0c0c;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -246,7 +246,7 @@ body {
   color: #666;
 }
 
-/* Services Section */
+/* For Services Section */
 .services-section {
   margin-top: 30px;
   padding: 20px;
@@ -288,7 +288,7 @@ body {
   object-fit: contain; 
 }
 
-/* Footer */
+/* For Footer */
 .footer {
   display: flex;
   justify-content: space-between;
